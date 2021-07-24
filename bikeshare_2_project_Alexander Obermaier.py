@@ -270,7 +270,7 @@ def main():
 
         restart = ''
         while restart not in RESPONSE_DATA:
-            restart = input('\nWould you like to restart? Enter yes or no.\n').lower()
+            restart = input('\nWould you like to restart? Enter yes or no. I hope you had fun analyzing the bikeshare data?! :)\n').lower()
             if restart not in RESPONSE_DATA:
                 print('\nPlease check your input. This is not one of the possible inputs to progress. You might have a typo.')
                 print('You can choose between yes or no.')
